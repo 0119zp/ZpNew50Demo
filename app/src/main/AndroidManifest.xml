@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zp.com.zpnew50demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.ZpNewActivity"/>
+        <!-- 抽屉 -->
+        <activity android:name=".activity.ZpNavigationActivtiy"
+            android:theme="@style/Theme.DesignDemo"/>
+
+        <activity android:name=".activity.ZpTabLayoutTopActivtiy"/>
+
+        <activity android:name=".activity.ZpTabLayoutBottomActivity"/>
+
+        <activity android:name=".activity.ZpFabActivity"/>
+
+        <activity android:name=".activity.ZpTextInputActivity"/>
+
+        <activity android:name=".activity.ZpBottomNavigationActivity"/>
+
+        <activity android:name=".activity.ZpBehaviorNestedActivity"/>
+
+        <activity android:name=".activity.ZpBehaviorNestedExpandActivity"/>
+
+        <activity android:name=".activity.ZpSearchResultActivity"/>
+
+        <activity android:name=".activity.ZpAppBarLayoutActivity"/>
+
+        <activity android:name=".activity.ZpCardViewActivity"/>
+
+    </application>
+
+</manifest>
