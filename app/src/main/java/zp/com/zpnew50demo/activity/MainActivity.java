@@ -69,4 +69,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void button12(View view){
+        Intent intent = new Intent(MainActivity.this, ZpXuanTingActivity.class);
+        startActivity(intent);
+    }
+
 }

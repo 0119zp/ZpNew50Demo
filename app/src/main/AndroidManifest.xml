@@ -41,6 +41,8 @@
 
         <activity android:name=".activity.ZpCardViewActivity"/>
 
+        <activity android:name=".activity.ZpXuanTingActivity"/>
+
     </application>
 
 </manifest>
